@@ -37,6 +37,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageDependencies": [
             ["@jest/test-sequencer", "npm:27.3.1"],
             ["jest", "virtual:3d3da7f78998fea59d96a2850bba2d7be5e971baaaf10fb11436e3205ab60d2c2998668b8328f68d98ce385f8125d245a247e27b380d1864c37c5f22f56d24cb#npm:27.3.1"],
+            ["react", "npm:17.0.2"],
             ["rimraf", "npm:3.0.2"]
           ],
           "linkType": "SOFT",
@@ -3269,6 +3270,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["jest-teardown", "workspace:."],
             ["@jest/test-sequencer", "npm:27.3.1"],
             ["jest", "virtual:3d3da7f78998fea59d96a2850bba2d7be5e971baaaf10fb11436e3205ab60d2c2998668b8328f68d98ce385f8125d245a247e27b380d1864c37c5f22f56d24cb#npm:27.3.1"],
+            ["react", "npm:17.0.2"],
             ["rimraf", "npm:3.0.2"]
           ],
           "linkType": "SOFT",
@@ -3464,6 +3466,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/lodash-npm-4.17.21-6382451519-eb835a2e51.zip/node_modules/lodash/",
           "packageDependencies": [
             ["lodash", "npm:4.17.21"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["loose-envify", [
+        ["npm:1.4.0", {
+          "packageLocation": "./.yarn/cache/loose-envify-npm-1.4.0-6307b72ccf-6517e24e0c.zip/node_modules/loose-envify/",
+          "packageDependencies": [
+            ["loose-envify", "npm:1.4.0"],
+            ["js-tokens", "npm:4.0.0"]
           ],
           "linkType": "HARD",
         }]
@@ -4068,6 +4080,17 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/punycode-npm-2.1.1-26eb3e15cf-823bf443c6.zip/node_modules/punycode/",
           "packageDependencies": [
             ["punycode", "npm:2.1.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["react", [
+        ["npm:17.0.2", {
+          "packageLocation": "./.yarn/cache/react-npm-17.0.2-99ba37d931-b254cc17ce.zip/node_modules/react/",
+          "packageDependencies": [
+            ["react", "npm:17.0.2"],
+            ["loose-envify", "npm:1.4.0"],
+            ["object-assign", "npm:4.1.1"]
           ],
           "linkType": "HARD",
         }]
