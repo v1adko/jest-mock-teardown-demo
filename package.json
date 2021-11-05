@@ -5,9 +5,11 @@
   "license": "MIT",
   "dependencies": {
     "@jest/test-sequencer": "^27.3.1",
-    "jest": "27.3.1"
+    "jest": "27.3.1",
+    "rimraf": "3.0.2"
   },
   "scripts": {
-    "test": "jest --runInBand"
+    "test": "jest --runInBand",
+    "cleanup": "rimraf $PWD"
   }
 }
