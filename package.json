@@ -6,7 +6,6 @@
   "dependencies": {
     "@jest/test-sequencer": "^27.3.1",
     "jest": "27.3.1",
-    "react": "^17.0.2",
     "rimraf": "3.0.2"
   },
   "scripts": {
