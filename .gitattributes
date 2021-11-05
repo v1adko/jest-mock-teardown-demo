@@ -397,3 +397,5 @@
 .yarn/cache/abab-npm-2.0.5-ae8d5b629e-0ec951b46d.zip filter=lfs diff=lfs merge=lfs -text
 .yarn/cache/has-unicode-npm-2.0.1-893adb4747-1eab07a743.zip filter=lfs diff=lfs merge=lfs -text
 .yarn/cache/wide-align-npm-1.1.5-889d77e592-d5fc37cd56.zip filter=lfs diff=lfs merge=lfs -text
+.yarn/cache/loose-envify-npm-1.4.0-6307b72ccf-6517e24e0c.zip filter=lfs diff=lfs merge=lfs -text
+.yarn/cache/react-npm-17.0.2-99ba37d931-b254cc17ce.zip filter=lfs diff=lfs merge=lfs -text
